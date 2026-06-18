@@ -33,15 +33,18 @@ html,body{
     background-color:pink;
     opacity: 0;
     display: flex;
+    position: relative;
 }
 #head{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     border: 2px solid black;
     background-color:#E0AC69;
-    margin-left: 300px;
-    margin-top: 100px;
+    left: 420px;
+    top: 200px;
+    position: absolute;
+    z-index: 4;
 }
 #body{
     height: 200px;
@@ -49,7 +52,10 @@ html,body{
     border-radius: 20px;
     background-color: #E0AC69;
     border: 2px solid black;
-    margin-left: 300px;
+    left: 300px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
 }
 #buttons{
     display: flex;
@@ -76,6 +82,7 @@ html,body{
     cursor: pointer;
     overflow: hidden;
     padding: 0;
+    z-index: 3;
 }
 #arrow img{
     object-fit: cover;
@@ -83,4 +90,13 @@ html,body{
     width: 100%;
     height: 100%;
     pointer-events: none;
+    z-index: 3;
+}
+#dress1{
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 1;
 }
