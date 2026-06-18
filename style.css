@@ -6,7 +6,7 @@ html,body{
     background-color: pink; 
     margin: 0;
 }
-h1{
+#h1{
     font-size: 2.5rem;
     color:rgb(226, 4, 133);
     position: absolute;
@@ -24,4 +24,10 @@ h1{
 }
 #letsgo:active{
     transform: scale(0.67);
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:pink;
+    opacity: 0;
 }
