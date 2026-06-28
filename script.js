@@ -4,6 +4,7 @@ const text = document.getElementById("h1");
 const doll = document.getElementById("doll");
 const head = document.getElementById("head");
 const body = document.getElementById("body");
+const neck = document.getElementById("neck");
 const skincolor = document.getElementById("color");
 go.addEventListener("click", ()=>{
     main.style.opacity =  "1";
@@ -14,5 +15,4 @@ go.addEventListener("click", ()=>{
 })
 color.addEventListener('input', (e)=>{
     head.style.backgroundColor = e.target.value;
-    body.style.backgroundColor = e.target.value;
 })

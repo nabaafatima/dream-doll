@@ -34,28 +34,18 @@ html,body{
     opacity: 0;
     display: flex;
     position: relative;
+    margin: 0;
 }
 #head{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50px;
     border: 2px solid black;
     background-color:#E0AC69;
-    left: 420px;
-    top: 200px;
+    left: 450px;
+    top: 50px;
     position: absolute;
     z-index: 4;
-}
-#body{
-    height: 200px;
-    width: 100px;
-    border-radius: 20px;
-    background-color: #E0AC69;
-    border: 2px solid black;
-    left: 300px;
-    position: absolute;
-    top: 250px;
-    left: 400px;
 }
 #buttons{
     display: flex;
@@ -97,6 +87,13 @@ html,body{
     height: 250px;
     position: absolute;
     left: 300px;
-    top: 200px;
+    top: 300px;
     z-index: 1;
+    opacity: 0;
+}
+#dress{
+    position: absolute;
+    left: 311px;
+    top: 100px;
+    z-index: 5;
 }
