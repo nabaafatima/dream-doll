@@ -37,13 +37,13 @@ html,body{
     margin: 0;
 }
 #head{
-    width: 70px;
-    height: 120px;
-    border-radius: 100px;
+    width: 100px;
+    height: 140px;
+    border-radius:50px;
     border: 2px solid black;
     background-color:#E0AC69;
-    left: 450px;
-    top: 70px;
+    left: 430px;
+    top: 100px;
     position: absolute;
     z-index: 4;
 }
@@ -89,7 +89,7 @@ html,body{
     left: 311px;
     top: 147px;
     z-index: 5;
-    opacity: 1;
+    opacity: 0;
 }
 #dress{
     position: absolute;
@@ -128,6 +128,21 @@ html,body{
 #hair4{
     position: absolute;
     left: 360px;
-    top: 40px;
+    top: 0px;
     z-index: 7;
+    opacity:0;
+}
+#dress3{
+    position: absolute;
+    left: 340px;
+    top: 150px;
+    z-index: 6;
+    opacity: 1;
+}
+#hair5{
+    position: absolute;
+    left: 370px;
+    top: 70px;
+    z-index: 7;
+
 }
