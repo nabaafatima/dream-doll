@@ -96,7 +96,7 @@ html,body{
 #dress2{
     position: absolute;
     left: 308px;
-    top: 200px;
+    top: 190px;
     z-index: 5;
     opacity: 0;
 }
@@ -116,7 +116,7 @@ html,body{
     z-index: 7;
     width: 200px;
     height: 200px;
-    top: 20px;
+    top: 60px;
     opacity: 0;
 }
 #hair3{
@@ -153,12 +153,12 @@ html,body{
 #dress5{
     opacity:0;
     position: absolute;
-    left: 320px;
-    top: 160px;
+    left: 325px;
+    top: 145px;
 }
 #dress4{
     opacity:0;
     position: absolute;
-    left: 333px;
-    top: 160px;
+    left: 340px;
+    top: 145px;
 }
