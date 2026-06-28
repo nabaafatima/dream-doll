@@ -110,6 +110,7 @@ function s5() {
     head.style.left = "430px";
     head.style.top = "100px";
 }
+let hairindex = 0;
 let currentIndex = 0;
 let darray = [d1,d2,d3,d4,d5];
 let harray = [s1,s2,s3,s4,s5] ;
@@ -120,7 +121,7 @@ arrow.addEventListener("click", ()=>{
         darray[currentIndex].style.opacity = "1";
     };
     if(h===true) {
-        currentIndex = (currentIndex + 1) % harray.length;
-        harray[currentIndex]();
+        hairindex = (hairindex + 1) % harray.length;
+        harray[hairindex]();
     }
 });
