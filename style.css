@@ -37,12 +37,12 @@ html,body{
     margin: 0;
 }
 #head{
-    width: 100px;
-    height: 140px;
-    border-radius:50px;
+    width: 90px;
+    height: 120px;
+    border-radius: 50px;
     border: 2px solid black;
     background-color:#E0AC69;
-    left: 430px;
+    left: 440px;
     top: 100px;
     position: absolute;
     z-index: 4;
@@ -53,9 +53,11 @@ html,body{
     flex-direction: column;
     gap: 50px;
 }
-#hair, #clothes, #accessories, #color{
+#hair, #clothes, #color{
     width: 100px;
     height: 100px;
+    font-family: "Mynerve";
+    font-size: 1.4rem;
 }
 #color{
     position: absolute;
@@ -74,7 +76,7 @@ html,body{
     overflow: hidden;
     padding: 0;
     background: none;
-    z-index: 3;
+    z-index: 29;
 }
 #arrow img{
     object-fit: cover;
@@ -82,7 +84,7 @@ html,body{
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 3;
+    z-index: 29;
 }
 #dress1{
     position: absolute;
@@ -105,7 +107,8 @@ html,body{
     width: 256px;
     height: 276;
     z-index: 7;
-    opacity: 0;
+    opacity: 1;
+    top: 50px;
 }
 #hair2{
     position: absolute;
@@ -135,7 +138,7 @@ html,body{
 #dress3{
     position: absolute;
     left: 310px;
-    top: 180px;
+    top: 175px;
     z-index: 6;
     opacity: 0;
 }
@@ -144,6 +147,7 @@ html,body{
     left: 370px;
     top: 70px;
     z-index: 7;
+    opacity : 0;
 
 }
 #dress5{
