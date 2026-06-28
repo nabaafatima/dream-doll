@@ -86,15 +86,15 @@ html,body{
 }
 #dress1{
     position: absolute;
-    left: 311px;
-    top: 147px;
+    left: 338px;
+    top: 160px;
     z-index: 5;
-    opacity: 0;
+    opacity: 1;
 }
-#dress{
+#dress2{
     position: absolute;
-    left: 311px;
-    top: 150px;
+    left: 308px;
+    top: 200px;
     z-index: 5;
     opacity: 0;
 }
@@ -134,10 +134,10 @@ html,body{
 }
 #dress3{
     position: absolute;
-    left: 340px;
-    top: 150px;
+    left: 310px;
+    top: 180px;
     z-index: 6;
-    opacity: 1;
+    opacity: 0;
 }
 #hair5{
     position: absolute;
@@ -145,4 +145,16 @@ html,body{
     top: 70px;
     z-index: 7;
 
+}
+#dress5{
+    opacity:0;
+    position: absolute;
+    left: 320px;
+    top: 160px;
+}
+#dress4{
+    opacity:0;
+    position: absolute;
+    left: 333px;
+    top: 160px;
 }
