@@ -40,11 +40,19 @@ hairs.addEventListener("click", ()=>{
 })
 function s1(){
     h1.style.opacity="1";
+    h2.style.opacity = "0";
+    h3.style.opacity = "0";
+    h4.style.opacity = "0";
+    h5.style.opacity = "0";
     head.style.width = "90px";
     head.style.height = "120px";
     head.style.border.radius = "20px";
     head.style.top = "100px";
     head.style.left = "440px";
+    d4.style.left = "340px";
+    d4.style.top = "145px";
+    d5.style.left= "325px";
+    d5.style.top = "145px";
 }
 function s2(){
     h2.style.opacity = "1";
@@ -63,11 +71,15 @@ function s2(){
 }
 let currentIndex = 0;
 let darray = [d1,d2,d3,d4,d5];
-let harray = [h1,h2,h3,h4,h5];
+let harray = [s1,s2];
 arrow.addEventListener("click", ()=>{
     if(c===true) {
         darray[currentIndex].style.opacity = "0";
         currentIndex = (currentIndex + 1) % darray.length;
         darray[currentIndex].style.opacity = "1";
     };
+    if(h===true) {
+        currentIndex = (currentIndex + 1) % harray.length;
+        harray[currentIndex]();
+    }
 });
