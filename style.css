@@ -37,12 +37,12 @@ html,body{
     margin: 0;
 }
 #head{
-    width: 90px;
+    width: 110px;
     height: 120px;
-    border-radius: 20px;
+    border-radius: 100px;
     border: 2px solid black;
     background-color:#E0AC69;
-    left: 440px;
+    left: 430px;
     top: 70px;
     position: absolute;
     z-index: 4;
@@ -99,12 +99,29 @@ html,body{
     top: 150px;
     z-index: 5;
 }
-#hairs{
+#hair1{
     position: absolute;
     left: 360px;
     overflow: hidden;
     width: 256px;
     height: 276;
     z-index: 7;
-
+    opacity: 0;
+}
+#hair2{
+    position: absolute;
+    left: 395px;
+    z-index: 7;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    opacity: 0;
+}
+#hair3{
+    position: absolute;
+    left: 370px;
+    top: 5px;
+    z-index: 7;
+    width: 200px;
+    height: 200px;
 }
